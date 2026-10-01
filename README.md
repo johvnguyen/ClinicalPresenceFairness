@@ -20,3 +20,12 @@ The folder `mimic` contains three notebooks. First, run `preprocessing.ipynb` to
 - Clinical presence can result in group-specific temporal patterns that we would like to explore.
 ## Requirements
 This paper relies on `skcikit-learn`, `matplotlib` and `seaborn`. For reproducing the MIMIC III results, access to the dataset needs to be granted. 
+
+## NGUYEN Notes
+Various code changes were necessary because the original paper used an outdated version of Pandas.
+
+`preprocessing.ipynb` takes a few minutes
+
+`experiment.ipynb` takes ~9 hours
+
+`analysis groups.ipynb` takes a minute to run
